@@ -34,7 +34,9 @@ function getItemsByDate (path: string) {
       onlyFiles: true,
       objectMode: true,
     }).forEach((article) => {
-      console.log('article',article)
+      if(article.path == undefined){
+        return;
+      }
       const articleFile = matter.read(`${article.path}`);
       const { data } = articleFile;
       if (data.isTop) {
@@ -54,8 +56,9 @@ function getItemsByDate (path: string) {
 
     // 添加年份分组
     yearGroups.unshift({
-      text: `<img class="chinese-zodiac" style="position: static; vertical-align: middle; padding-bottom: 3px;" src="/img/svg/chinese-zodiac/${getChineseZodiac(year.replace('年', ''))}.svg" title="${getChineseZodiacAlias(year.replace('年', ''))}" alt="生肖">
-            ${year}年 (${articleItems.length}篇)`,
+      // <img class="chinese-zodiac" style="position: static; vertical-align: middle; padding-bottom: 3px;" src="/img/svg/chinese-zodiac/${getChineseZodiac(year.replace('年', ''))}.svg" title="${getChineseZodiacAlias(year.replace('年', ''))}" alt="生肖">
+      // text 前缀图片 
+      text: `${year}年 (${articleItems.length}篇)`,
       items: articleItems,
       collapsed: true,
     });

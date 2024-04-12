@@ -1,14 +1,7 @@
-# Markdown扩展示例
-
-本页展示了VitePress提供的一些内置降价扩展.
-
-## 语法突出显示
-
-VitePress提供由[Shiki](https://github.com/shikijs/shiki)提供的语法高亮显示，并具有其他功能，如线条高亮显示
+# 这是首页 暂时空着 以后修改
 
 **Input**
 
-````md
 ```js{4}
 export default {
   data () {
@@ -18,7 +11,6 @@ export default {
   }
 }
 ```
-````
 
 **Output**
 
@@ -37,25 +29,7 @@ export default {
 **Input**
 
 ```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
+info
 ```
 
 **Output**
