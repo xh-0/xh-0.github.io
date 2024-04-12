@@ -11,7 +11,7 @@ export default defineConfig({
   description: metaData.description,
 
   cleanUrls: true,
-  lastUpdated: true, // 显示最后更新时间
+  // lastUpdated: true, // 显示最后更新时间
 
   // head, // <head>内标签配置
   markdown: markdown, // Markdown配置
