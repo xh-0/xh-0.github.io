@@ -1,3 +1,4 @@
+// 左侧页面menu导航
 import type { DefaultTheme } from 'vitepress';
 import { getChineseZodiac, getChineseZodiacAlias } from '../store/utils';
 import fg from 'fast-glob';
@@ -7,6 +8,7 @@ const sync = fg.sync;
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/things/': getItemsByDate("things"),
+  '/code/': getItems("code"),
 }
 
 /**
@@ -104,13 +106,13 @@ function getItems (path: string) {
   const titleCollapsedSize = 20;
 
   // 1.获取所有分组目录
-  sync(`docs/${path}/*`, {
+  sync(`${path}/*`, {
     onlyDirectories: true,
     objectMode: true,
   }).forEach(({ name }) => {
     let groupName = name;
     // 2.获取分组下的所有文章
-    sync(`docs/${path}/${groupName}/*`, {
+    sync(`${path}/${groupName}/*`, {
       onlyFiles: true,
       objectMode: true,
     }).forEach((article) => {
