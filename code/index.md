@@ -1,5 +1,5 @@
 ---
-showArticleMetadata: false
+showArticleHeader: false
 editLink: false
 lastUpdated: false
 showComment: false
