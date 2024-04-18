@@ -17,7 +17,7 @@ export const themeConfig: DefaultTheme.Config = {
   //     ]
   //   }
   // ],
-  logo: '/public/logo.png',
+  logo: '/logo.png',
   outline: {
     level: 'deep', // 右侧大纲标题层级
     label: '目录', // 右侧大纲标题文本配置
