@@ -1,38 +1,4 @@
-# 这是首页 暂时空着 以后修改
-
-**Input**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## 自定义容器
-
-**Input**
-
-```md
-info
-```
-
-**Output**
+# home首页
 
 ::: info
 This is an info box.
@@ -56,4 +22,4 @@ This is a details block.
 
 ## More
 
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+[可以点击的链接](https://vitepress.dev/guide/markdown).

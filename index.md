@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: 来看看
-      link: /home
+      link: /things/index
     - theme: alt
       text: 我是谁
       link: /about/about
