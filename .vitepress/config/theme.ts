@@ -8,15 +8,6 @@ export const themeConfig: DefaultTheme.Config = {
   nav, // 导航栏配置
   // 侧边栏配置
   sidebar,
-  // sidebar : [
-  //   {
-  //     text: '火钳刘明',
-  //     items: [
-  //       { text: '首页', link: '/home' },
-  //       { text: '关于介绍', link: '/about/about' }
-  //     ]
-  //   }
-  // ],
   logo: '/logo.png',
   outline: {
     level: 'deep', // 右侧大纲标题层级
