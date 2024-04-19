@@ -1,7 +1,8 @@
 ---
+title: 前端相关的页面1
 author: xh
-title: 前端相关的页面
 date: 2024/04/17
+isTop: true
 ---
 
 # 测试标题
@@ -11,4 +12,8 @@ function hello() {
   console.log("Hello, World!");
 }
 ```
+
+<ClientOnly>
+  <ArticleMetadata/>
+</ClientOnly>
   
