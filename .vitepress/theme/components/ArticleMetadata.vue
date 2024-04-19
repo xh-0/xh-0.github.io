@@ -7,7 +7,7 @@
         </template>
         原创
       </a-tag>
-      <a-tag v-else color="arcoblue" title="转载文章">
+      <a-tag v-else color="green" title="转载文章">
         <template #icon>
           <icon-share-alt />
         </template>
@@ -36,13 +36,13 @@
       </span>
       <time class="meta-content" :datetime="date.toISOString()" :title="dayjs().to(dayjs(date))">{{ date.toLocaleString('zh', {year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric'}) }}</time>
     </div>
-    <div class="meta-item" v-if="showViewCount">
+    <!-- <div class="meta-item" v-if="showViewCount">
       <span class="meta-icon pv">
         <svg role="img" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><title>阅读数</title><path d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3-7.7 16.2-7.7 35.2 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766z"></path><path d="M508 336c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176z m0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"></path></svg>
       </span>
       <span class="meta-content" v-text="viewCount" :title="viewCount"></span>
-    </div>
-    <div class="meta-item" v-if="showCategory">
+    </div> -->
+    <!-- <div class="meta-item" v-if="showCategory">
       <span class="meta-icon category">
         <svg role="img" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><title>所属分类</title><path d="M928 444H820V330.4c0-17.7-14.3-32-32-32H473L355.7 186.2a8.15 8.15 0 0 0-5.5-2.2H96c-17.7 0-32 14.3-32 32v592c0 17.7 14.3 32 32 32h698c13 0 24.8-7.9 29.7-20l134-332c1.5-3.8 2.3-7.9 2.3-12 0-17.7-14.3-32-32-32zM136 256h188.5l119.6 114.4H748V444H238c-13 0-24.8 7.9-29.7 20L136 643.2V256z m635.3 512H159l103.3-256h612.4L771.3 768z"></path></svg>
       </span>
@@ -52,8 +52,8 @@
           <span v-if="index != categories.length - 1">, </span>
         </span>
       </span>
-    </div>
-    <div class="meta-item tag">
+    </div> -->
+    <!-- <div class="meta-item tag">
       <span class="meta-icon tag">
         <svg role="img" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"><title>标签列表</title><path d="M483.2 790.3L861.4 412c1.7-1.7 2.5-4 2.3-6.3l-25.5-301.4c-0.7-7.8-6.8-13.9-14.6-14.6L522.2 64.3c-2.3-0.2-4.7 0.6-6.3 2.3L137.7 444.8a8.03 8.03 0 0 0 0 11.3l334.2 334.2c3.1 3.2 8.2 3.2 11.3 0z m62.6-651.7l224.6 19 19 224.6L477.5 694 233.9 450.5l311.9-311.9z m60.16 186.23a48 48 0 1 0 67.88-67.89 48 48 0 1 0-67.88 67.89zM889.7 539.8l-39.6-39.5a8.03 8.03 0 0 0-11.3 0l-362 361.3-237.6-237a8.03 8.03 0 0 0-11.3 0l-39.6 39.5a8.03 8.03 0 0 0 0 11.3l243.2 242.8 39.6 39.5c3.1 3.1 8.2 3.1 11.3 0l407.3-406.6c3.1-3.1 3.1-8.2 0-11.3z"></path></svg>
       </span>
@@ -63,7 +63,7 @@
           <span v-if="index != tags.length - 1">, </span>
         </span>
       </span>
-    </div>
+    </div> -->
   </div>
 </template>
 

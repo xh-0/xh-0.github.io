@@ -4,5 +4,5 @@ import './style/vars.css';
 
 export default {
   ...DefaultTheme,
-
+  
 }
