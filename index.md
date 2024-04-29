@@ -20,14 +20,14 @@ hero:
       link: /about/about
 
 features:
-  - title: 介绍 me
+  - title: 关于 介绍
     icon: ⚡️
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 关于 me
+    details: 我就是我不一样的烟火。
+  - title: 关于 网站
     icon: 🖖
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: more me
+    details: 这是一个关于我的个人博客的网站，里面记载的有一些技术文章，一些生活记录，各种内容都会有，欢迎您的到来。
+  - title: 关于 更多
     icon: 🛠️
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 博客的开发进行中，不断更新，敬请期待。
 ---
 

@@ -9,10 +9,15 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "@types/blueimp-md5": "^2.18.2",
+    "@types/jquery": "^3.5.29",
     "ant-design-vue": "^4.1.2",
+    "blueimp-md5": "^2.19.0",
     "dayjs": "^1.11.10",
     "fast-glob": "^3.3.2",
+    "gitalk": "^1.8.0",
     "gray-matter": "^4.0.3",
+    "jquery": "^3.7.1",
     "markdown-it-footnote": "^4.0.0",
     "markdown-it-mathjax3": "^4.3.2",
     "unplugin-vue-components": "^0.26.0"
