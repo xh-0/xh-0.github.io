@@ -26,7 +26,8 @@ export const themeConfig: DefaultTheme.Config = {
   },
   // 编辑链接配置
   editLink: {
-    pattern: 'https://github.com/xh-0/xh-blog/issues',
+    // pattern: 'https://github.com/xh-0/xh-blog/issues',
+    pattern: 'https://github.com/xh-0/xh-blog/edit/main/:path',
     text: '不妥之处 多多指教'
   },
   // 搜索配置（二选一）
