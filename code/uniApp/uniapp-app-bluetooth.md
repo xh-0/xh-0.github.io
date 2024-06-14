@@ -42,7 +42,7 @@ categories:
 
 - 初始化蓝牙 uni.openBluetoothAdapter(OBJECT)
 
-``` javascript
+``` js
 uni.openBluetoothAdapter({
   success(res) {
     console.log(res)
@@ -172,10 +172,11 @@ function ab2hex(buffer) {
 uni.onBLECharacteristicValueChange(function (res) {
   console.log(`characteristic ${res.characteristicId} has changed, now is ${res.value}`)
   console.log(ab2hex(res.value))
-
+})
 ```
 
 - 向低功耗蓝牙设备特征值中写入二进制数据 uni.writeBLECharacteristicValue(OBJECT)
+  - 在调用 notifyBLECharacteristicValueChange 成功后立即调用 writeBLECharacteristicValue 接口，在部分机型上会发生 10008 系统错误, 可以给 writeBLECharacteristicValue 添加一个 setTimeout 延迟写入
 
 ``` js
 // 向蓝牙设备发送一个0x00的16进制数据
@@ -206,5 +207,9 @@ uni.closeBLEConnection({
   }
 })
 ```
-    
 
+> [官方蓝牙API链接地址](https://uniapp.dcloud.net.cn/api/system/bluetooth.html)
+
+> [官方低功耗蓝牙API链接地址](https://uniapp.dcloud.net.cn/api/system/ble.html)
+
+:blush: :grin:
