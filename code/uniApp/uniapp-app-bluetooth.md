@@ -23,17 +23,20 @@ categories:
 
 ## 尝试 1
 
-![自定义低功耗蓝牙API原生插件官方提供图片](http://cdn.jsdelivr.net/gh/xh-0/picture-bed/blog/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BD%8E%E5%8A%9F%E8%80%97%E8%93%9D%E7%89%99%20API%20%E5%8E%9F%E7%94%9F%E6%8F%92%E4%BB%B6.jpg)
-先是使用的 dcloud 插件市场的一个插件，[自定义低功耗蓝牙 API 原生插件](https://ext.dcloud.net.cn/plugin?id=8551)
+::: info
+使用的 dcloud 插件市场d 插件 -> [自定义低功耗蓝牙 API 原生插件](https://ext.dcloud.net.cn/plugin?id=8551)
+:::
 
-可以扫描到蓝牙，但是连接到蓝牙设备过几秒救会自动断开连接，尝试测试了好次，修改代码就是找不到原因
-无奈只能放弃，尝试 uni 官方的蓝牙 API
+![自定义低功耗蓝牙API原生插件官方提供图片](http://cdn.jsdelivr.net/gh/xh-0/picture-bed/blog/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BD%8E%E5%8A%9F%E8%80%97%E8%93%9D%E7%89%99%20API%20%E5%8E%9F%E7%94%9F%E6%8F%92%E4%BB%B6.jpg)
+
+可以扫描到蓝牙，但是连接到蓝牙设备过几秒，会自动断开连接，尝试测试了好次，修改代码就是找不到原因
+无奈只能放弃，尝试 uniapp 官方的蓝牙 API
 
 --- 
 
 ## 尝试 2
 
-::: tip
+::: info
 
 使用 uniapp [uni-app 蓝牙 API](https://uniapp.dcloud.net.cn/api/system/bluetooth.html) 进行设备的调试
 :::
