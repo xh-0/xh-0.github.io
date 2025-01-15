@@ -1,3 +1,4 @@
 # no git directory
 node_modules/
 .vitepress/cache
+.history/
