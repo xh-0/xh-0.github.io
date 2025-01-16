@@ -1,12 +1,12 @@
 ---
-title: vue3中高德地图API的调用
+title: vue3高德API点聚合
 author: xh
 date: 2025/01/15 20:00
 categories:
 - 大屏可视化
 ---
 
-# vue3中高德地图API的调用
+# vue3高德API点聚合
 
 ## html部分
 ```ts
