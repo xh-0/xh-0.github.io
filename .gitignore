@@ -1,4 +1,11 @@
-# no git directory
-node_modules/
-.vitepress/cache
+**/node_modules
+
+docs/.vuepress/.cache
+docs/.vuepress/.temp
 .history/
+
+.DS_Store
+*.log
+
+.vscode
+.vercel
