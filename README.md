@@ -1,27 +1,7 @@
-# keep-it-simple
+# xh-blog
 
-The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume)
+## 介绍
+借助vitepress搭建的个人知识博客体系
+url: xh-0.github.io 可以浏览博客
 
-## Install
-
-```sh
-pnpm i
-```
-
-## Usage
-
-```sh
-# start dev server
-pnpm docs:dev
-# build for production
-pnpm docs:build
-# preview production build in local
-pnpm docs:preview
-# update vuepress and theme
-pnpm vp-update
-```
-
-## Documents
-
-- [vuepress](https://vuepress.vuejs.org/)
-- [vuepress-theme-plume](https://theme-plume.vuejs.press/)
+## node -v : v20.12.2
